@@ -22,7 +22,7 @@ const steps = computed(() => tm('process.steps') || [])
           v-reveal
           class="grid gap-4 rounded-[18px] bg-white p-6 shadow-[0_24px_60px_rgba(39,28,19,0.16)] sm:grid-cols-[64px_1fr]"
         >
-          <span class="text-[1.3rem] font-bold text-[#b5845b]">0{{ index + 1 }}</span>
+          <span class="text-[1.3rem] font-bold text-[#f29a49]">0{{ index + 1 }}</span>
           <div>
             <h3 class="text-[1.2rem] font-semibold text-[#2d2620]">{{ step.title }}</h3>
             <p class="text-[#4a433b]">{{ step.text }}</p>

@@ -17,7 +17,7 @@ const bullets = computed(() => tm('estimate.bullets') || [])
       <div v-reveal class="rounded-[22px] bg-white p-6 shadow-[0_24px_60px_rgba(39,28,19,0.16)]">
         <ul class="grid gap-3 text-sm text-[#4a433b]">
           <li v-for="(item, index) in bullets" :key="index" class="flex gap-2">
-            <span class="mt-1 inline-block h-2 w-2 rounded-full bg-[#664836]"></span>
+            <span class="mt-1 inline-block h-2 w-2 rounded-full bg-[#f07a1f]"></span>
             <span>{{ item }}</span>
           </li>
         </ul>

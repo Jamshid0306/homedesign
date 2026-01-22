@@ -23,11 +23,11 @@ const types = computed(() => tm('repairTypes.list') || [])
         >
           <div>
             <h3 class="text-[1.4rem] font-semibold text-[#2d2620]">{{ type.title }}</h3>
-            <p v-if="type.duration" class="mt-1 text-sm font-semibold text-[#8b6d51]">{{ type.duration }}</p>
+            <p v-if="type.duration" class="mt-1 text-sm font-semibold text-[#d8742a]">{{ type.duration }}</p>
           </div>
           <ul class="grid gap-2 text-sm text-[#4a433b]">
             <li v-for="(item, index) in type.items" :key="index" class="flex gap-2">
-              <span class="mt-1 inline-block h-1.5 w-1.5 rounded-full bg-[#b5845b]"></span>
+              <span class="mt-1 inline-block h-1.5 w-1.5 rounded-full bg-[#f29a49]"></span>
               <span>{{ item }}</span>
             </li>
           </ul>

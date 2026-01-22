@@ -228,8 +228,7 @@ const messages = {
       title: 'Bugunoq loyihangizni boshlang',
       subtitle: "Biz sizning g'oyalaringizni aniq reja va chiroyli dizaynga aylantiramiz.",
       info: [
-        { label: 'Telefon', value: '+998 99 053 69 26' },
-        { label: 'Email', value: 'info@domremont.uz' },
+        { label: 'Telefon', value: '+998 95 111 33 33' },
         { label: 'Ish vaqti', value: 'Du - Yak 08:00 - 22:00' },
       ],
       form: {
@@ -249,9 +248,8 @@ const messages = {
       contact: 'Aloqa',
       text:
         "Interyer dizayn va ta'mirlash bo'yicha to'liq xizmatlar. Sifatli materiallar, aniq muddat va kafolat.",
-      phone: '+998 99 053 69 26',
-      email: 'info@domremont.uz',
-      copyright: '© 2024 HomeDesign. Barcha huquqlar himoyalangan.',
+      phone: '+998 95 111 33 33',
+      copyright: '© {year} HomeDesign. Barcha huquqlar himoyalangan.',
     },
   },
   ru: {
@@ -478,8 +476,7 @@ const messages = {
       title: 'Начнем ваш проект уже сегодня',
       subtitle: 'Превратим вашу идею в четкий план и красивый интерьер.',
       info: [
-        { label: 'Телефон', value: '+998 99 053 69 26' },
-        { label: 'Email', value: 'info@domremont.uz' },
+        { label: 'Телефон', value: '+998 95 111 33 33' },
         { label: 'График работы', value: 'Пн-Вс 08:00 - 22:00' },
       ],
       form: {
@@ -498,9 +495,8 @@ const messages = {
       sections: 'Разделы',
       contact: 'Контакты',
       text: 'Полный спектр услуг по дизайну и ремонту. Качественные материалы, сроки и гарантия.',
-      phone: '+998 99 053 69 26',
-      email: 'info@domremont.uz',
-      copyright: '© 2024 HomeDesign. Все права защищены.',
+      phone: '+998 95 111 33 33',
+      copyright: '© {year} HomeDesign. Все права защищены.',
     },
   },
   en: {
@@ -727,8 +723,7 @@ const messages = {
       title: 'Start your project today',
       subtitle: 'We turn your idea into a clear plan and a beautiful interior.',
       info: [
-        { label: 'Phone', value: '+998 99 053 69 26' },
-        { label: 'Email', value: 'info@domremont.uz' },
+        { label: 'Phone', value: '+998 95 111 33 33' },
         { label: 'Hours', value: 'Mon-Sun 08:00 - 22:00' },
       ],
       form: {
@@ -747,9 +742,8 @@ const messages = {
       sections: 'Sections',
       contact: 'Contact',
       text: 'Full service interior design and renovation. Quality materials, clear timelines, and warranty.',
-      phone: '+998 99 053 69 26',
-      email: 'info@domremont.uz',
-      copyright: '© 2024 HomeDesign. All rights reserved.',
+      phone: '+998 95 111 33 33',
+      copyright: '© {year} HomeDesign. All rights reserved.',
     },
   },
 }

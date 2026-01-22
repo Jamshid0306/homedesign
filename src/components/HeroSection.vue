@@ -24,12 +24,12 @@ const heroStats = computed(() => [
         </p>
         <div class="flex flex-wrap gap-4">
           <button
-            class="inline-flex items-center justify-center rounded-full bg-[#664836] px-6 py-3 text-sm font-semibold text-[#fff5ea] shadow-[0_18px_30px_rgba(34,25,18,0.25)] transition hover:-translate-y-0.5 hover:shadow-[0_16px_26px_rgba(0,0,0,0.12)]"
+            class="inline-flex items-center justify-center rounded-full bg-[#f07a1f] px-6 py-3 text-sm font-semibold text-[#fff1e3] shadow-[0_18px_30px_rgba(34,25,18,0.25)] transition hover:-translate-y-0.5 hover:shadow-[0_16px_26px_rgba(0,0,0,0.12)]"
           >
             {{ t('hero.primary') }}
           </button>
           <button
-            class="inline-flex items-center justify-center rounded-full border border-[#c8b5a2] px-6 py-3 text-sm font-semibold text-[#664836] transition hover:-translate-y-0.5"
+            class="inline-flex items-center justify-center rounded-full border border-[#f2c7a0] px-6 py-3 text-sm font-semibold text-[#f07a1f] transition hover:-translate-y-0.5"
           >
             {{ t('hero.secondary') }}
           </button>
@@ -41,7 +41,7 @@ const heroStats = computed(() => [
             v-reveal
             class="rounded-xl bg-white p-4 shadow-[0_24px_60px_rgba(39,28,19,0.16)] transition hover:-translate-y-1"
           >
-            <p class="text-2xl font-bold text-[#664836]">{{ item.value }}</p>
+            <p class="text-2xl font-bold text-[#f07a1f]">{{ item.value }}</p>
             <span class="text-sm text-[#6a5d52]">{{ item.label }}</span>
           </div>
         </div>

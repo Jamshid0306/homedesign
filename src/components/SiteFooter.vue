@@ -5,6 +5,7 @@ import { useI18n } from 'vue-i18n'
 const { t, tm } = useI18n()
 
 const contactInfo = computed(() => tm('contact.info') || [])
+const currentYear = new Date().getFullYear()
 </script>
 
 <template>
@@ -13,7 +14,7 @@ const contactInfo = computed(() => tm('contact.info') || [])
       <div>
         <div class="flex items-center gap-3">
           <img
-            src="/logo.png"
+            src="/logo.PNG"
             alt="HomeDesign logo"
             class="w-[100px] rounded-[12px] shadow-[0_12px_28px_rgba(0,0,0,0.25)]"
           />
@@ -29,18 +30,16 @@ const contactInfo = computed(() => tm('contact.info') || [])
         <a class="transition hover:text-white" href="#services">{{ t('nav.services') }}</a>
         <a class="transition hover:text-white" href="#repair-types">{{ t('nav.repairTypes') }}</a>
       </div>
-      <div class="grid gap-2 text-sm text-[#d0c4b8]">
+      <div class="flex flex-col gap-2 text-sm text-[#d0c4b8]">
         <span class="font-semibold text-[#fff0e1]">{{ t('footer.contact') }}</span>
         <a class="transition hover:text-white" href="tel:+998990536926">{{ t('footer.phone') }}</a>
-        <a class="transition hover:text-white" href="mailto:info@domremont.uz">{{ t('footer.email') }}</a>
-        <span>{{ contactInfo[2]?.value }}</span>
       </div>
     </div>
     <div
       v-reveal
       class="mx-auto mt-8 w-[min(1200px,90vw)] border-t border-white/10 pt-5 text-center text-xs text-[#c8b8a9]"
     >
-      <span>{{ t('footer.copyright') }}</span>
+      <span>{{ t('footer.copyright', { year: currentYear }) }}</span>
     </div>
   </footer>
 </template>

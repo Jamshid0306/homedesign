@@ -9,7 +9,7 @@ const options = computed(() => tm('contact.form.options') || [])
 </script>
 
 <template>
-  <section id="contact" class="bg-[linear-gradient(140deg,#f3e5d7_0%,#fdf8f3_100%)] py-24">
+  <section id="contact" class="bg-[linear-gradient(140deg,#ffe2c8_0%,#fff7f1_100%)] py-24">
     <div class="mx-auto grid w-[min(1200px,90vw)] gap-10 lg:grid-cols-[1fr_0.9fr]">
       <div>
         <div v-reveal class="grid gap-3">
@@ -32,7 +32,7 @@ const options = computed(() => tm('contact.form.options') || [])
           <input
             type="text"
             :placeholder="t('contact.form.namePlaceholder')"
-            class="rounded-xl border border-[#ddcbb8] bg-[#fffaf4] px-4 py-3"
+            class="rounded-xl border border-[#f2c7a0] bg-[#fff5ec] px-4 py-3"
           />
         </label>
         <label class="grid gap-2 text-sm text-[#5a4f45]">
@@ -40,12 +40,12 @@ const options = computed(() => tm('contact.form.options') || [])
           <input
             type="tel"
             :placeholder="t('contact.form.phonePlaceholder')"
-            class="rounded-xl border border-[#ddcbb8] bg-[#fffaf4] px-4 py-3"
+            class="rounded-xl border border-[#f2c7a0] bg-[#fff5ec] px-4 py-3"
           />
         </label>
         <label class="grid gap-2 text-sm text-[#5a4f45]">
           {{ t('contact.form.service') }}
-          <select class="rounded-xl border border-[#ddcbb8] bg-[#fffaf4] px-4 py-3">
+          <select class="rounded-xl border border-[#f2c7a0] bg-[#fff5ec] px-4 py-3">
             <option v-for="option in options" :key="option">{{ option }}</option>
           </select>
         </label>
@@ -54,11 +54,11 @@ const options = computed(() => tm('contact.form.options') || [])
           <textarea
             rows="4"
             :placeholder="t('contact.form.notePlaceholder')"
-            class="rounded-xl border border-[#ddcbb8] bg-[#fffaf4] px-4 py-3"
+            class="rounded-xl border border-[#f2c7a0] bg-[#fff5ec] px-4 py-3"
           ></textarea>
         </label>
         <button
-          class="inline-flex items-center justify-center rounded-full bg-[#664836] px-6 py-3 text-sm font-semibold text-[#fff5ea] shadow-[0_18px_30px_rgba(34,25,18,0.25)] transition hover:-translate-y-0.5 hover:shadow-[0_16px_26px_rgba(0,0,0,0.12)]"
+          class="inline-flex items-center justify-center rounded-full bg-[#f07a1f] px-6 py-3 text-sm font-semibold text-[#fff1e3] shadow-[0_18px_30px_rgba(34,25,18,0.25)] transition hover:-translate-y-0.5 hover:shadow-[0_16px_26px_rgba(0,0,0,0.12)]"
           type="submit"
         >
           {{ t('contact.form.submit') }}

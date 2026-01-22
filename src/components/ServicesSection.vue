@@ -26,7 +26,7 @@ const services = computed(() => tm('services.list') || [])
         >
           <h3 class="text-[1.4rem] font-semibold text-[#2d2620]">{{ service.title }}</h3>
           <p class="text-[#4a433b]">{{ service.description }}</p>
-          <span class="text-sm font-semibold text-[#8b6d51]">{{ t('services.more') }}</span>
+          <span class="text-sm font-semibold text-[#d8742a]">{{ t('services.more') }}</span>
         </article>
       </div>
     </div>

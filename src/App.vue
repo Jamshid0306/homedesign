@@ -9,7 +9,6 @@ import EstimateSection from './components/EstimateSection.vue'
 import ProjectsSection from './components/ProjectsSection.vue'
 import ProcessSection from './components/ProcessSection.vue'
 import TestimonialsSection from './components/TestimonialsSection.vue'
-import OfferSection from './components/OfferSection.vue'
 import ContactSection from './components/ContactSection.vue'
 import SiteFooter from './components/SiteFooter.vue'
 </script>
@@ -27,7 +26,6 @@ import SiteFooter from './components/SiteFooter.vue'
       <ProjectsSection />
       <ProcessSection />
       <TestimonialsSection />
-      <OfferSection />
       <ContactSection />
     </main>
     <SiteFooter />

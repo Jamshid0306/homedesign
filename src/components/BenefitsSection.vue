@@ -7,7 +7,7 @@ const benefits = computed(() => tm('benefits.list') || [])
 </script>
 
 <template>
-  <section id="benefits" class="bg-[linear-gradient(160deg,#fdf8f3_0%,#f4e9dc_100%)] py-24">
+  <section id="benefits" class="bg-[linear-gradient(160deg,#fff7f1_0%,#ffe9d5_100%)] py-24">
     <div class="mx-auto w-[min(1200px,90vw)]">
       <div v-reveal class="mb-12 grid gap-3 text-center">
         <p class="text-xs font-semibold uppercase tracking-[0.2em] text-[#7d6a5a]">{{ t('benefits.eyebrow') }}</p>
