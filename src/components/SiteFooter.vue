@@ -14,7 +14,7 @@ const currentYear = new Date().getFullYear()
       <div>
         <div class="flex items-center gap-3">
           <img
-            src="/logo.PNG"
+            src="/logo.png"
             alt="HomeDesign logo"
             class="w-[100px] rounded-[12px] shadow-[0_12px_28px_rgba(0,0,0,0.25)]"
           />

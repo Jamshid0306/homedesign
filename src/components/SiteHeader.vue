@@ -53,7 +53,7 @@ onBeforeUnmount(() => {
     <div class="mx-auto flex w-[min(1200px,90vw)] items-center justify-between gap-6 py-4">
       <div class="flex items-center gap-4">
         <img
-          src="/logo.PNG"
+          src="/logo.png"
           alt="HomeDesign logo"
           class="w-[120px] rounded-[14px]"
         />
