@@ -69,7 +69,7 @@ onBeforeUnmount(() => {
         <a class="transition hover:text-[#f07a1f]" href="#contact">{{ t('nav.contact') }}</a>
       </nav>
       <div class="flex items-center gap-3">
-        <div class="relative" ref="menuRef">
+        <div class="relative z-20" ref="menuRef">
           <button
             type="button"
             class="flex items-center gap-2 rounded-full border border-[#f2c7a0] px-4 py-2 text-sm font-semibold text-[#f07a1f] transition hover:-translate-y-0.5"
@@ -80,14 +80,15 @@ onBeforeUnmount(() => {
           </button>
           <div
             v-if="isOpen"
-            class="absolute right-0 mt-2 w-40 overflow-hidden rounded-[16px] bg-white shadow-[0_24px_60px_rgba(39,28,19,0.16)]"
+            class="absolute right-0 z-20 mt-2 w-40 overflow-hidden rounded-[16px] bg-white shadow-[0_24px_60px_rgba(39,28,19,0.16)]"
+            @click.stop
           >
             <button
               v-for="lang in languages"
               :key="lang.code"
               type="button"
               class="flex w-full items-center gap-2 px-4 py-3 text-left text-sm text-[#2d2620] transition hover:bg-[#ffe9d5]"
-              @click="selectLanguage(lang.code)"
+              @click.stop="selectLanguage(lang.code)"
             >
               <span class="text-base">{{ lang.flag }}</span>
               <span class="font-semibold">{{ lang.label }}</span>
