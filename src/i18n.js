@@ -752,8 +752,8 @@ const savedLocale = typeof window !== 'undefined' ? window.localStorage.getItem(
 
 export default createI18n({
   legacy: false,
-  locale: savedLocale || 'uz',
-  fallbackLocale: 'uz',
+  locale: savedLocale || 'ru',
+  fallbackLocale: 'ru',
   globalInjection: true,
   messages,
 })
