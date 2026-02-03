@@ -54,11 +54,11 @@ onBeforeUnmount(() => {
       <div class="flex items-center gap-4">
         <img
           src="/logo.png"
-          alt="HomeDesign Desa logo"
+          alt="HomeDesign logo"
           class="w-[120px] rounded-[14px]"
         />
         <div>
-          <p class="font-['Playfair_Display'] text-[1.4rem]">HomeDesign Desa</p>
+          <p class="font-['Playfair_Display'] text-[1.4rem]">HomeDesign</p>
           <span class="text-sm text-[#5c5248]">{{ t('header.tagline') }}</span>
         </div>
       </div>
