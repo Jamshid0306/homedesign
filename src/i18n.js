@@ -17,7 +17,7 @@ const messages = {
       tagline: "Interyer va ta'mirlash studiyasi",
     },
     hero: {
-      eyebrow: 'HomeDesign studiyasi',
+      eyebrow: 'HomeDesign Desa studiyasi',
       title: "Toshkent va viloyatlarda sifatli ta'mir va interyer yechimlari",
       subtitle:
         "Dizayn, ta'mirlash va mebel yechimlarini bir joyda. Siz xohlagan uslubda, belgilangan muddatda va shaffof smeta bilan.",
@@ -37,7 +37,7 @@ const messages = {
       subtitle:
         "2017-yildan beri yuqori sifat standartlari va aniq jarayonlar bilan xizmat ko'rsatamiz.",
       paragraphs: [
-        "HomeDesign - bu vaqtni qadrlaydigan, uslub va sifatni yuqori baholaydigan mijozlar uchun zamonaviy kompaniya.",
+        "HomeDesign Desa - bu vaqtni qadrlaydigan, uslub va sifatni yuqori baholaydigan mijozlar uchun zamonaviy kompaniya.",
         "Biz turar joy va tijoriy obyektlar uchun professional ta'mir va bezatish xizmatlariga ixtisoslashganmiz.",
         "Bizning ustuvor yo'nalishimiz - to'liq ta'mir xizmatlari: rejalashtirishdan yakuniy topshirishgacha.",
       ],
@@ -249,7 +249,7 @@ const messages = {
       text:
         "Interyer dizayn va ta'mirlash bo'yicha to'liq xizmatlar. Sifatli materiallar, aniq muddat va kafolat.",
       phone: '+998 95 111 33 33',
-      copyright: '© {year} HomeDesign. Barcha huquqlar himoyalangan.',
+      copyright: '© {year} HomeDesign Desa. Barcha huquqlar himoyalangan.',
     },
   },
   ru: {
@@ -268,7 +268,7 @@ const messages = {
       tagline: 'Студия интерьера и ремонта',
     },
     hero: {
-      eyebrow: 'Студия HomeDesign',
+      eyebrow: 'Студия HomeDesign Desa',
       title: 'Качественный ремонт квартир в Ташкенте и области',
       subtitle:
         'Дизайн, ремонт и мебельные решения в одном месте. В нужном стиле, в срок и с прозрачной сметой.',
@@ -287,7 +287,7 @@ const messages = {
       title: 'Современная компания для тех, кто ценит время и качество',
       subtitle: 'С 2017 года придерживаемся высоких стандартов и точных процессов.',
       paragraphs: [
-        'HomeDesign — современная компания для людей, которые ценят свое время и тонкое чувство стиля.',
+        'HomeDesign Desa — современная компания для людей, которые ценят свое время и тонкое чувство стиля.',
         'Мы специализируемся на профессиональном ремонте и отделке жилых и коммерческих помещений.',
         'Приоритет — ремонт под ключ: от планирования до финальной сдачи объекта.',
       ],
@@ -496,7 +496,7 @@ const messages = {
       contact: 'Контакты',
       text: 'Полный спектр услуг по дизайну и ремонту. Качественные материалы, сроки и гарантия.',
       phone: '+998 95 111 33 33',
-      copyright: '© {year} HomeDesign. Все права защищены.',
+      copyright: '© {year} HomeDesign Desa. Все права защищены.',
     },
   },
   en: {
@@ -515,7 +515,7 @@ const messages = {
       tagline: 'Interior & renovation studio',
     },
     hero: {
-      eyebrow: 'HomeDesign studio',
+      eyebrow: 'HomeDesign Desa studio',
       title: 'Quality apartment renovation in Tashkent and region',
       subtitle:
         'Design, renovation, and furniture solutions in one place. The style you want, on schedule, with a clear estimate.',
@@ -534,7 +534,7 @@ const messages = {
       title: 'A modern company for clients who value time and quality',
       subtitle: 'Since 2017 we follow high standards and clear processes.',
       paragraphs: [
-        'HomeDesign is a modern company for people who value their time and have a refined sense of style.',
+        'HomeDesign Desa is a modern company for people who value their time and have a refined sense of style.',
         'We specialize in professional renovation and finishing for residential and commercial spaces.',
         'Our priority is turnkey renovation: from planning to final handover.',
       ],
@@ -743,7 +743,7 @@ const messages = {
       contact: 'Contact',
       text: 'Full service interior design and renovation. Quality materials, clear timelines, and warranty.',
       phone: '+998 95 111 33 33',
-      copyright: '© {year} HomeDesign. All rights reserved.',
+      copyright: '© {year} HomeDesign Desa. All rights reserved.',
     },
   },
 }
